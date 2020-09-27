@@ -6,6 +6,7 @@ on:
     branches:
       - master
       - release/*
+      - test-old-branch
   schedule:
     - cron: '0 6 * * *'
 
