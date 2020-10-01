@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    name: default
+    name: default-wisedv
     runs-on: windows-latest
     strategy:
       fail-fast: false
@@ -28,7 +28,7 @@ jobs:
           cl.exe hello.c
           hello.exe
   audit:
-    name: npm audit
+    name: npm audit -wisedv
     runs-on: windows-latest
     steps:
       - name: Check out source code
